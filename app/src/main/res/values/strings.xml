@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ZinzineApp</string>
+    <string name="main_title">Radio Zinzine</string>
+    <string name="btn_direct">Écoutez le direct</string>
+    <string name="title_bibliotheque">Bibliothèque d\'émissions</string>
+    <string name="contentDescriptionLogo">Logo Radio Zinzine</string>
+    <string name="btn_emissions">Chercher une ancienne émission</string>
+</resources>

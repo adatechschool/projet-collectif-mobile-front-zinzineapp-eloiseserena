@@ -13,7 +13,7 @@ class MainActivity : ComponentActivity() {
                     // Passage à la page des émissions en cliquant sur le bouton
         val button= findViewById<Button>(R.id.open_emissions)
         button.setOnClickListener {
-            finish()
+
             startActivity(Intent(applicationContext, Emissions::class.java))
         }
                 }

@@ -5,4 +5,5 @@
     <string name="title_bibliotheque">Bibliothèque d\'émissions</string>
     <string name="contentDescriptionLogo">Logo Radio Zinzine</string>
     <string name="btn_emissions">Chercher une ancienne émission</string>
+    <string name="emissions">Écouter une ancienne émission</string>
 </resources>

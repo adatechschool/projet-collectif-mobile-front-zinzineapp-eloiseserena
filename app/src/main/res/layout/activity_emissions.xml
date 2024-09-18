@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/red"
-    tools:context=".Emissions">
+    tools:context=".EmissionsActivity">
     
 
         
@@ -20,6 +20,12 @@
             android:textColor="@color/white"
             android:textSize="32sp"
             />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
 
 
 </LinearLayout>

@@ -6,6 +6,7 @@ import android.widget.Button
 import androidx.activity.ComponentActivity
 
 
+
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -14,7 +15,7 @@ class MainActivity : ComponentActivity() {
         val button= findViewById<Button>(R.id.open_emissions)
         button.setOnClickListener {
 
-            startActivity(Intent(applicationContext, Emissions::class.java))
+            startActivity(Intent(applicationContext, EmissionsActivity::class.java))
         }
                 }
             }
